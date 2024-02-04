@@ -1,6 +1,6 @@
 {
-  "homepage": "https://m-dev77.github.io/frontEnd/",
-  "name": "vite-project",
+  "homepage": "frontEnd/",
+  "name": "frontEnd",
   "private": true,
   "version": "0.0.0",
   "type": "module",
