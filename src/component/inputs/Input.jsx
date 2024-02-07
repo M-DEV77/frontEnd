@@ -1,10 +1,11 @@
 import { InputStyle } from "./input.style"
-export default function Entrada(tipo,valor){
+export default function Entrada(props){
     
     return(
         
         <InputStyle >
-           <input type='text' placeholder={valor}  />
+            <p>{props.place}</p>
+            <input className="inp" type={props.tipo}  placeholder={props.place}/>
         </InputStyle >
        
     )
